@@ -1,36 +1,37 @@
-import React from 'react'
-import Searchbar from "../../components/searchbar/seachbar"
-import './home.scss'
-export default function home() {
+import SearchBar from "../../components/searchbar/seachbar"
+import "./home.scss";
+
+function HomePage() {
   return (
-    <div className="homepage">
-      <div className="textcontainer">
-        <div className="wrap">
-          <h1>Find Real Estate & Get Your Dream Place</h1>
+    <div className="homePage">
+      <div className="textContainer">
+        <div className="wrapper">
+          <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsa vero facere debitis veritatis, fugit voluptate sint saepe enim illo reiciendis quia nulla. Totam obcaecati saepe, officiis odio, ipsam explicabo sapiente facere autem, corrupti ut consequatur laudantium sint. Aspernatur, reprehenderit!
+          Welcome to Your Dream Home! Our real estate platform offers a wide range of properties to suit every need and lifestyle, from city apartments to suburban family homes and luxurious estates. Our expert team is dedicated to guiding you through every step of the process. Explore our listings today and find your perfect home with us.
           </p>
-          <Searchbar/>
+          <SearchBar />
           <div className="boxes">
-          <div className="box">
-            <h1>10+</h1>
-            <h2>Years of Experience</h2>
-          </div>
-          <div className="box">
-            <h1>20</h1>
-            <h2>Award Gained</h2>
-          </div>
-          <div className="box">
-            <h1>800+</h1>
-            <h2>Property Ready</h2>
-          </div>
+            <div className="box">
+              <h1>16+</h1>
+              <h2>Years of Experience</h2>
+            </div>
+            <div className="box">
+              <h1>200</h1>
+              <h2>Award Gained</h2>
+            </div>
+            <div className="box">
+              <h1>2000+</h1>
+              <h2>Property Ready</h2>
+            </div>
           </div>
         </div>
-        
       </div>
-      <div className="imgcontainer">
+      <div className="imgContainer">
         <img src="/bg.png" alt="" />
       </div>
     </div>
-  )
+  );
 }
+
+export default HomePage;
