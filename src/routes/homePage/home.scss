@@ -64,7 +64,8 @@
 
   .imgContainer {
     flex: 2;
-    background-color: #fcf5f3;
+    background-color: 
+    #efccab;
     position: relative;
     display: flex;
     align-items: center;
@@ -74,11 +75,15 @@
     }
 
     img {
-      width: 115%;
+      width: 80vh;
       position: absolute;
       right: 0;
-
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 0px;
+      height: 100vh;
       @include lg {
+
         width: 105%;
       }
     }
