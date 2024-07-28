@@ -10,8 +10,8 @@ function Navbar() {
     <nav>
       <div className="left">
         <a href="/" className="logo">
-          <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdeQQatOe6hvYp1YHsq0U93Co5ls-3Uol-vYNbzmqhcmTg9LcrrKoiti58nw&s" alt="" />
+          <span>PrimeAbodes</span>
         </a>
         <a href="/">Home</a>
         <a href="/">About</a>
